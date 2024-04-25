@@ -26,6 +26,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -49,10 +50,30 @@
       <recent name="D:\Semestar VIII\Diplomska Rabota\App\spring\backend\gateway\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+  <component name="RunManager" selected="Spring Boot.ProducerApplication">
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.bidwise.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.bidwise.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="core" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.bidwise.core.CoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.bidwise.discovery.DiscoveryApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,6 +95,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.AuthApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +112,8 @@
       <workItem from="1713483972409" duration="645000" />
       <workItem from="1713550521534" duration="4007000" />
       <workItem from="1713742215868" duration="29000" />
-      <workItem from="1713742394351" duration="3068000" />
+      <workItem from="1713742394351" duration="10999000" />
+      <workItem from="1713910190342" duration="1794000" />
     </task>
     <servers />
   </component>

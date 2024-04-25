@@ -21,6 +21,7 @@
         <module>core</module>
         <module>producer</module>
         <module>auth</module>
+        <module>discovery</module>
     </modules>
 
     <properties>
